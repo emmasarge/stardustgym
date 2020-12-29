@@ -46,45 +46,21 @@
      </section>
 
 <section class="contact-page-form">
+<section class="container-fluid">
+<div class="row bg-color-contact"> 
+<div class="col">
+<h3 class="contact-heading">Membership and General Contact</h3>
+<div class="center-form">
 <form>
-    <div class="form-group col-md-4">
-      <label for="inputName4">Name</label>
-      <input type="text" class="form-control" id="inputName4" placeholder="Name">
-    </div>
-    <div class="form-row">
-    <div class="form-group col-md-4">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-    </div>
-  
-  <div class="form-group col-md-4">
-    <label for="inputTelephone">Telephone Number</label>
-    <input type="text" class="form-control" id="inputTelephone" placeholder="Telephone number">
-  </div>
-  </div>
-  <div class="form-group col-md-6">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Address">
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-2">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Post Code</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Subscribe to Stardust Gym email newsletters, class updates and special offers.
-      </label>
-    </div>
-  </div>
-  <button type="submit" class="btn btn-primary">Sign up</button>
+<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+<textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
+<div class="form-row text-center">
+<div class="col">
+<button type="submit" class="btn btn-secondary">Send Project Request</button>
+</div>
+</div>
+
 </form>
 </section>
 
