@@ -12,32 +12,22 @@
     <title>Stardust Gym</title>
 </head>
 <body>
-   <header id="navigation">
-        <div id="navbar" class="banner">
-        <div class="row">
-        <div class="navbar-collapse collapse show">
-        <a href="index.html">
-            <h2 id="logo">Stardust Gym</h2>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="contact.html">Sign Up</a>
-                </li>
-                <li>
-                    <a href="classes.html">Classes</a>
-                </li>
-                <li>
-                    <a href="index.html">Schedule</a>
-                </li>
+    <header>
+    <nav class="navbar navbar-light navbar-expand-md">
+            <a href="index.html" class="navbar-brand logo">Stardust Gym</a>
 
-            </ul>
-            
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
+                <ul class="navbar-nav topnav-right ml-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="classes.html">Classes</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">Schedule</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
-        </div>
-        </div>
-        </div>
-    </header>
+        </header>
 
 
   <!---- <section class="contact-info">
@@ -53,12 +43,19 @@
 ---------->
 
 <section class="contact-page-form">
-<section class="container-fluid">
+<div class="container-fluid">
 <div class="row bg-img-contact"> 
 <div class="col">
 
-<h3 class="contact-heading">Membership and General Contact</h3>
+<div class="contact-heading">
+<h3>Membership and General Contact</h3>
+<p>Contact us to sign up for a free trial at Stardust Gym.
+         Enjoy classes, personal training and our state of the art free weight gym. 
+             Get up to date with our bi-weekly email newsletter to be the first to sign up to our exclusive guest-teacher classes,
+            80's events and special offers!</p>
+            </div>
 <div class="center-form">
+
 <form>
 <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
 <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
@@ -71,6 +68,10 @@
 </div>
 
 </form>
+</div>
+</div>
+</div>
+</div>
 </section>
 
 <footer class="container-fluid">

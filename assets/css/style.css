@@ -4,21 +4,24 @@ body {
     background-color: #fafafa;
 }
 /*----Navigation---*/
-#navigation {
+nav {
     background-color: #fafafa;
-    height: 60px;
-   
+    width: 100%;
 }
-#logo {
-    float:left;
+.navbar-brand {
     margin-left: 20px;
     font-size: 30px;
     font-family: 'Monoton',cursive;
     color: #1a0f17;
+    position: absolute;
+   
 }
-#logo:hover {
+.navbar-brand:hover {
     background-color: rgb(255, 225, 0);
     color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5px;
     letter-spacing: 2px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -26,12 +29,11 @@ body {
 }
 
 
-#menu {
-    list-style-type: none; 
-    float: right;
-    
+nav ul {
+    list-style-type: none;  
 }
-#menu li a {
+
+.navbar-nav li a {
     letter-spacing: 3px;
     text-decoration: none!important;
     color: inherit!important;
@@ -40,18 +42,48 @@ body {
     text-transform: uppercase;
     text-align: right;
     
+    
 }
 
-#menu li a:hover{
+.navbar-nav li a:hover{
     color: #d73b27!important;
     text-shadow: 3px 3px 4px #d73b27;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+/*------------------FOOTER---*/
+footer {
+    width: 100%;
+    border-top: solid 4px rgb(255, 225, 0);
+    background-color: #fafafa;
+    height: 100px;
+}
 
-.navbar-toggler {
-    float:right;
+footer .col-sm {
+    width: 100%;
+    margin-left: 50px;
+    padding-top: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 16px;
+   text-transform: uppercase;
+   font-weight: 200;
+   text-align: left;
+}
+footer p, .fa{
+    padding:5px;
+}
+.fa {
+    font-size: 30px;
+    color: #1a0f17;
+}
+.fa:hover{
+    color: #d73b27!important;
+    text-shadow: 3px 3px 4px #d73b27;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
 }
 /*-------Homepage-----------*/
 
@@ -94,9 +126,8 @@ body {
     font-family: 'Monoton', cursive !important;
     font-size: 65px;
     color: #1a0f17;
-    padding-top:60px;
+    padding-top:7%;
   
-   
    
 }
 .hero-sub {
@@ -104,14 +135,15 @@ body {
     text-transform: uppercase;
     font-weight: 300;
     color: #1a0f17;
-    padding:15px;
+    padding:5%;
+    
     
 }
 #class-express{
     background: url("../images/zebra.jpg");
     background-position: center;
     background-repeat: repeat;
-    height: 350px;
+    height: 100%;
     width: 100%;
     
     
@@ -138,49 +170,15 @@ body {
     letter-spacing: 2px;
     padding-top: 20px;
 }
-
-/*------------------FOOTER---*/
-footer {
-    width: 100%;
-    border-top: solid 4px rgb(255, 225, 0);
-    background-color: #fafafa;
-}
-
-footer .col-sm {
-    width: 100%;
-    margin-left: 50px;
-    padding-top: 20px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size: 16px;
-   text-transform: uppercase;
-   font-weight: 200;
-   text-align: left;
-}
-footer p, .fa{
-    padding:5px;
-}
-.fa {
-    font-size: 30px;
-    color: #1a0f17;
-}
-.fa:hover{
-    color: #d73b27!important;
-    text-shadow: 3px 3px 4px #d73b27;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-
-}
-
 /*-------Class Page-----*/
 .classes {
     background: url("../images/weightlady.jpg");
     background-position: center;
     background-repeat: repeat;
-    height: 900px;
-    width: 100%;
-   
+    height: 100%;
+    width: 100%;  
 }
+
 .classes h3 {
     text-transform: uppercase;
     font-weight: 300;
@@ -200,7 +198,7 @@ footer p, .fa{
 }
 .class-bg {
     color: #fafafa;
-    background-color: rgb(215, 59, 39, 0.8);
+    background-color: rgb(215, 59, 39, 0.95);
     width:100%;
     height: 450px;
     text-align: center;
@@ -210,7 +208,7 @@ footer p, .fa{
     font-weight:300;
 }
 #amenities .col-md{
-background-color: rgb(215, 59, 39, 0.8);
+background-color: rgb(215, 59, 39, 0.95);
 margin:10px 20px 20px 20px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: #fafafa;
@@ -221,34 +219,91 @@ text-align:center;
 }
 
 /*-----------------Sign up-------------*/
-
 .contact-heading {
+    background-color: #fafafa;
+     padding: 20px 10px 0px 10px;
+     border: 2px solid black;
+    
+}
+.contact-heading h3 {
     font-family:'Monoton',cursive;
     text-align: center;
-    font-size: 50px;
+    font-size: 250%;
     letter-spacing: 3px;
     color: #d73b27;
-    text-shadow: 1px 1px 2px yellow;
-    padding: 0px 5px 20px 5px;
+    text-shadow: 1px 1px 3px yellow;
+    padding: 1%;
+   
 }
 
+.contact-heading p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 1%;
+}
+
+
 .contact-page-form {
-    display: block;
-    text-align: center;
-    padding-top: 40px;
+   position: relative;
+   text-align: center;
+   padding: 10%;
+   height: 100%;
+   background-image: url("../images/pattern.png");
     
 }
 
 .center-form {
-    display: inline-block;
-    width: 80%;
+  display: inline-block;
+   width: 100%;
+   margin-top: 20px;
 }
 
 .center-form input {
     margin-bottom: 10px;
+    border: 2px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: lowercase;
+    font-weight: 300;
+    background-image: url("../images/gymboys.jpg");
+    border-radius: 0%;
+
+}
+
+.center-form textarea {
+    border: 2px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: lowercase;
+    font-weight: 300;
+    background-image: url("../images/gymboys.jpg");
+    border-radius: 0%;
+    
 }
 
 .center-form button {
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom:35px;
+    background-color: #70cdc3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fafafa;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0%;
+    border: solid 1px #70cdc3;
+    padding: 10px 50px 10px 50px;
+
 }
+
+.center-form button:hover{
+    background-color: #1965b4;
+    border: solid 1px #1965b4;
+    transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+
+}
+

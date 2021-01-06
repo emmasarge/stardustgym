@@ -13,36 +13,26 @@
 </head>
 <body>
     <header>
-        <header id="navigation">
-        <div id="navbar" class="banner">
-        <div class="row">
-        <div class="navbar-collapse collapse show">
-        <a href="index.html">
-            <h2 id="logo">Stardust Gym</h2>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="contact.html">Sign Up</a>
-                </li>
-                <li>
-                    <a href="classes.html">Classes</a>
-                </li>
-                <li>
-                    <a href="index.html">Schedule</a>
-                </li>
+        <nav class="navbar navbar-light navbar-expand-sm">
+            <a href="index.html" class="navbar-brand logo">Stardust Gym</a>
 
-            </ul>
-            
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
+                <ul class="navbar-nav topnav-right ml-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="classes.html">Classes</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">Schedule</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
-        </div>
-        </div>
-        </div>
-    </header>
-    <body class="classes">
+        </header>
+    <div class="classes">
+        <div class="class-bg-img">
 <div id="class-info">
 <div class="container-fluid">
-    <div class="class-bg-img">
+    
   <div class="row">
     <div class="col-md class-bg">
      <h3>Aerobics</h3> 
@@ -104,7 +94,7 @@
 </div>
 </div>
 
-</body>
+</div>
 
 
 <footer class="container-fluid">
