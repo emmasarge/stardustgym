@@ -2,9 +2,9 @@
 
 The Stardust Gym website aims to attract a clientele looking for a fun workout with 80’s style aerobics with easy accessibility to sign up for classes and membership.
 
-[You can view the live project here](https://emmasarge.github.io/stardustgym/)
+[Stardust Gym Live](https://emmasarge.github.io/stardustgym/)
 
-![Website Overview](./assets/images/stardust-overview.png)
+[Website Overview](./assets/images/stardust-overview.png)
 
 ## Contents
 
@@ -186,10 +186,10 @@ I would like to add a booking element for site visitors to book and pay for a cl
 ### Media 
 Photos were found via Google Image search:
 
-[Hero Image] (https://flashbak.com/10-reasons-aerobics-in-the-1980s-was-crazy-awesome-76/)
-[Contact Page](https://img.mensxp.com/media/content/2017/Mar/golden-era-bodybuilders-who-defined-the-sport-of-bodybuilding-along-with-arnold-schwarzenegger980-1489757302_600x280.jpg)
-[Background Patterns](https://www.freepik.com/vectors/80s-pattern)
-[Background Zebra Print](https://www.istockphoto.com/illustrations/zebra-pattern?phrase=zebra%20pattern&sort=best)
+* [Hero Image](https://flashbak.com/10-reasons-aerobics-in-the-1980s-was-crazy-awesome-76/)
+* [Contact Page](https://img.mensxp.com/media/content/2017/Mar/golden-era-bodybuilders-who-defined-the-sport-of-bodybuilding-along-with-arnold-schwarzenegger980-1489757302_600x280.jpg)
+* [Background Patterns](https://www.freepik.com/vectors/80s-pattern)
+* [Background Zebra Print](https://www.istockphoto.com/illustrations/zebra-pattern?phrase=zebra%20pattern&sort=best)
 
 ### References for Code
 
