@@ -4,7 +4,7 @@ The Stardust Gym website aims to attract a clientele looking for a fun workout w
 
 [Stardust Gym Live](https://emmasarge.github.io/stardustgym/)
 
-[Website Overview](./assets/images/stardust-overview.png)
+![Website Overview](./assets/images/stardust-overview.png)
 
 ## Contents
 
