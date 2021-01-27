@@ -190,7 +190,7 @@ Photos were found via Google Image search:
 * [Contact Page](https://img.mensxp.com/media/content/2017/Mar/golden-era-bodybuilders-who-defined-the-sport-of-bodybuilding-along-with-arnold-schwarzenegger980-1489757302_600x280.jpg)
 * [Background Patterns](https://www.freepik.com/vectors/80s-pattern)
 * [Background Zebra Print](https://www.istockphoto.com/illustrations/zebra-pattern?phrase=zebra%20pattern&sort=best)
-
+* [Class.html background](https://medium.com/inside-recsports-2020/from-fonda-to-f45-9598e7b7f5f3)
 ### References for Code
 
 * The homepage was based on the Running project from the Code Institute, particularly the nav and footer. 
