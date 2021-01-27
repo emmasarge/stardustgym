@@ -126,7 +126,7 @@ footer p, .fa{
 
 .hero-text {
     font-family: 'Monoton', cursive !important;
-    font-size: 65px;
+    font-size: 60px;
     color: #1a0f17;
     padding-top:7%;
   
@@ -236,17 +236,12 @@ text-align:center;
 .contact-heading h3 {
     font-family:'Monoton',cursive;
     text-align: center;
-    font-size: 250%;
+    font-size: 150px;
     letter-spacing: 3px;
     color: #d73b27;
     text-shadow: 1px 1px 3px yellow;
     padding: 1%;
    
-}
-@media only screen and (max-width: 600px) {
-  .contact-headin h3 {
-    font-size: 20px;
-  }
 }
 
 .contact-heading p {
