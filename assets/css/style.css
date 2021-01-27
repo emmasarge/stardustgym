@@ -236,7 +236,7 @@ text-align:center;
 .contact-heading h3 {
     font-family:'Monoton',cursive;
     text-align: center;
-    font-size: 150px;
+    font-size: 175%;
     letter-spacing: 3px;
     color: #d73b27;
     text-shadow: 1px 1px 3px yellow;
@@ -276,7 +276,6 @@ text-align:center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: lowercase;
     font-weight: 300;
-    background-image: url("../images/gymboys.jpg");
     border-radius: 0%;
 
 }
@@ -286,7 +285,6 @@ text-align:center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: lowercase;
     font-weight: 300;
-    background-image: url("../images/gymboys.jpg");
     border-radius: 0%;
     
 }
@@ -294,21 +292,21 @@ text-align:center;
 .center-form button {
     margin-top: 50px;
     margin-bottom:35px;
-    background-color: #70cdc3;
+    background-color: #fafafa;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #fafafa;
+    color: black;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-radius: 0%;
-    border: solid 1px #70cdc3;
-    padding: 10px 50px 10px 50px;
+    border-radius: 1px;
+    border: solid 2px black;
+    padding: 10px 60px 10px 60px;
 
 }
 
 .center-form button:hover{
     background-color: #1965b4;
-    border: solid 1px #1965b4;
+    border: solid 2px #1965b4;
     transition: all 0.75s ease-in-out;
     -moz-transition: all 0.75s ease-in-out;
     -webkit-transition: all 0.75s ease-in-out;
