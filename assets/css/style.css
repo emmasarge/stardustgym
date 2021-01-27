@@ -174,11 +174,11 @@ footer p, .fa{
 }
 /*-------Class Page-----*/
 .classes {
-    background: url("../images/weightlady.jpg");
+    background: url("../images/workoutclass.jpeg");
     background-position: center;
-    background-repeat: repeat;
     height: 100%;
     width: 100%;  
+    padding-bottom: 20px;
 }
 
 .classes h3 {
