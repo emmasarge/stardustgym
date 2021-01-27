@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stardust Gym</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
-    
+
 </head>
+
 <body>
     <header>
-    <nav class="navbar navbar-light navbar-expand-md">
+        <nav class="navbar navbar-light navbar-expand-md">
             <a href="index.html" class="navbar-brand logo">Stardust Gym</a>
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
                 <ul class="navbar-nav topnav-right ml-auto">
                     <li class="active nav-item mr-2"><a class="nav-link" href="classes.html">Classes</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/assets/schedule/schedule.pdf" target="_blank">Schedule</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/assets/schedule/schedule.pdf"
+                            target="_blank">Schedule</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
-        </header>
+    </header>
 
 
-  <!---- <section class="contact-info">
+    <!---- <section class="contact-info">
        
 
          <h3>Contact us to sign up for a free trial at Stardust Gym.</h3>
@@ -46,98 +48,113 @@
      </section>
 ---------->
 
-<section class="contact-page-form">
-<div class="container-fluid">
-<div class="row bg-img-contact"> 
-<div class="col">
+    <section class="contact-page-form">
+        <div class="container-fluid">
+            <div class="row bg-img-contact">
+                <div class="col">
 
-<div class="contact-heading">
-<h3>Membership and General Contact</h3>
-<p>Contact us to sign up for a free trial at Stardust Gym.
-         Enjoy classes, personal training and our state of the art free weight gym. 
-             Get up to date with our bi-weekly email newsletter to be the first to sign up to our exclusive guest-teacher classes,
-            80's events and special offers!</p>
+                    <div class="contact-heading">
+                        <h3>Membership and General Contact</h3>
+                        <p>Contact us to sign up for a free trial at Stardust Gym.
+                            Enjoy classes, personal training and our state of the art free weight gym.
+                            Get up to date with our bi-weekly email newsletter to be the first to sign up to our
+                            exclusive guest-teacher classes,
+                            80's events and special offers!</p>
+                    </div>
+                    <div class="center-form">
+
+                        <form>
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
+                                required />
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                                required />
+                            <input type="phone-number" name="phone-number" id="phone-number" class="form-control"
+                                placeholder="Phone Number" required />
+                            <textarea rows="5" name="enquiry" id="enquiry" class="form-control"
+                                placeholder="Let us know if you have any questions here..." required></textarea>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-secondary">Submit</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
             </div>
-<div class="center-form">
+        </div>
+    </section>
 
-<form>
-<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-<input type="phone-number" name="phone-number" id="phone-number" class="form-control" placeholder="Phone Number" required />
-<textarea rows="5" name="enquiry" id="enquiry" class="form-control" placeholder="Let us know if you have any questions here..." required></textarea>
-<div class="form-row text-center">
-<div class="col">
-<button type="submit" class="btn btn-secondary">Submit</button>
-</div>
-</div>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <h5 class="uppercase general-sub">Get in Touch</h5>
+                <p class="inline-block">tel. 747-425-STAR <br>
+                    info@stardustgym.com<br>
 
-</form>
-</div>
-</div>
-</div>
-</div>
-</section>
+                </p>
 
-<footer class="container-fluid">
-<div class="row">
-<div class="col-sm">
-<h5 class="uppercase general-sub">Get in Touch</h5>
-<p class="inline-block">tel. 747-425-STAR <br>
-info@stardustgym.com<br>
+            </div>
+            <div class="col-sm">
+                <h5 class="uppercase general-sub">Address</h5>
+                <p class="inline-block">44589 Unit A <br>
+                    Fernando Industrial Lot CA 91340
 
-</p>
+                </p>
 
-</div>
-<div class="col-sm">
-<h5 class="uppercase general-sub">Address</h5>
-<p class="inline-block">44589 Unit A <br>
-Fernando Industrial Lot CA 91340
-
-</p>
-
-</div>
-<div class="col-sm">
-<h5 class="uppercase general-sub">Social</h5>
-<ul class="list-inline social-links">
-<li class="list-inline-item">
-<a target="_blank" href="#">
-<i class="fa fa-facebook" aria-hidden="true"></i>
-<span class="sr-only">Facebook</span>
-</a>
-</li>
-<li class="list-inline-item">
-<a target="_blank" href="#">
-<i class="fa fa-twitter" aria-hidden="true"></i>
-<span class="sr-only">Twitter</span>
-</a>
-</li>
-<li class="list-inline-item">
-<a target="_blank" href="#">
-<i class="fa fa-linkedin" aria-hidden="true"></i>
-<span class="sr-only">Linkedin</span>
-</a>
-</li>
-<li class="list-inline-item">
-<a target="_blank" href="#">
-<i class="fa fa-pinterest" aria-hidden="true"></i>
-<span class="sr-only">Pinterest</span>
-</a>
-</li>
-<li class="list-inline-item">
-<a target="_blank" href="#">
-<i class="fa fa-instagram" aria-hidden="true"></i>
-<span class="sr-only">Instagram</span>
-</a>
-</li>
-<li class="list-inline-item">
-<a target="_blank" href="#">
-<i class="fa fa-youtube" aria-hidden="true"></i>
-<span class="sr-only">Youtube</span>
-</a>
-</li>
-</ul>
-</div>
-</div>
+            </div>
+            <div class="col-sm">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">Linkedin</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
