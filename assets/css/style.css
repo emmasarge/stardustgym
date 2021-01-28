@@ -181,9 +181,9 @@ footer p, .fa{
 }
 /*-------Class Page-----*/
 .classes {
-    background: url("../images/workoutclass.jpeg");
-    background-position: center;
-    height: 1200px;
+    background: url("../images/workoutclass.jpg");
+    background-position:center;
+    height: 100%;
     width: 100%;  
    
     
