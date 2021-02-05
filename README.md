@@ -178,10 +178,7 @@ I would like to add a booking element for site visitors to book and pay for a cl
 *  Validation testing to double check coding accuracy was done with:
   1) [W3S CSS Validator](https://jigsaw.w3.org/css-validator/) 
   2) [W3S Html Validator](https://validator.w3.org/)  
-    * This resulted in a change to a single page scrolling website with navigation leading to the differnt sections of the page.  
-*  Validation testing was taken out using;
-  1) [W3S CSS Validator](https://jigsaw.w3.org/css-validator/) 
-  2) [W3S Html Validator](https://validator.w3.org/) 
+  
  * Sent friends and family link to site to check on their variety of devices including:
 		* Apple iPhone 6, XS, 12
 		* Apple iPad 5th Generation
