@@ -245,4 +245,5 @@ Photos were found via Google Image search:
 
 * I would like to thank Jim_Lynx from the CodeAcademy Slack group for his support and help.
 * I would like to thank the Code Institute for the knowledge shared.
+* I would like to thank my mentor Gbenga for his input.
 
