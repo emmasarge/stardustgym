@@ -17,7 +17,6 @@ The Stardust Gym website aims to attract a clientele looking for a fun workout w
   * Planning & Design
     * Layout & Wireframes
     * Colors
-    * Icons
     * Fonts
 
 * Technologies 
