@@ -78,26 +78,34 @@ As a potential member of Stardust Gym I want:
 ### Planning and Design
 ---
 ## Layout & Wireframes
+
+## Scope 
+
+Stardust Gym is built upon research for user-friendly websites, exciting yet tasteful design and customer demands compared to other gym websites. The site is simple, direct, fun and easy to navigate to attract membership without being distracting or off-putting.
+
+## Structure 
+
+I plan to keep the layout of the website to be very simple with a trusted and known style of navigation bar and footer. The body of the website will be reflective upon each page’s intent of information. Each link opens a page on a new tab.
   
-Skeleton 
+## Skeleton 
 
 I created my wireframes initially on paper with pen and then onto Balsamiq. They aren’t the most detailed and I would like to improve on this for any future projects.
  
 
 #### Home Page        
-* [Home page desktop](../assets/wireframes/home-page-desktop.png)
-* [Home page tablet](../assets/wireframes/home-page-tablet.png)
-* [Home page mobile](../assets/wireframes/home-page-mobile.png)
+* ![Home page desktop](../assets/wireframes/home-page-desktop.png)
+* ![Home page tablet](../assets/wireframes/home-page-tablet.png)
+* ![Home page mobile](../assets/wireframes/home-page-mobile.png)
 ​
 #### Classes
-* [About page desktop](../assets/wireframes/class-page-desktop.png)
-* [About page tablet](../assets/wireframes/class-page-tablet.png)
-* [About page mobile](../assets/wireframes/class-page-mobile.png)
+* ![About page desktop](../assets/wireframes/class-page-desktop.png)
+* ![About page tablet](../assets/wireframes/class-page-tablet.png)
+* ![About page mobile](../assets/wireframes/class-page-mobile.png)
 ​
 #### Contact
-* [Portfolio page desktop](../assets/wireframes/contact-page-desktop.png)
-* [Portfolio page tablet](../assets/wireframes/contact-tablet.png)
-* [Portfolio page mobile](../assets/wireframes/contact-page-mobile.png)
+* ![Portfolio page desktop](../assets/wireframes/contact-page-desktop.png)
+* ![Portfolio page tablet](../assets/wireframes/contact-page-tablet.png)
+* ![Portfolio page mobile](../assets/wireframes/contact-page-mobile.png)
 ​
 
 ### Colors
@@ -108,57 +116,56 @@ For the navbar, footer and background I used a warm off-white called #fafafa whi
 
 I based the rest of the site’s color scheme on an old ad I found from the 80’s and used a color picker from ColorZilla to match tones. I wanted to maintain an analogue and modern feel so I used grey, black, red and yellow. 
 
-Black: #1a0f17
-Yellow: rgb(255, 225, 0)
-Red: #d73b27
-Off-white: #fafafa
+* Black: #1a0f17
+* Yellow: rgb(255, 225, 0)
+* Red: #d73b27
+* Off-white: #fafafa
 
 ### Images 
    * With a strong 1980’s theme for the entire concept of Stardust Gym, I maintained the vintage aesthetic by using images from the 1980’s juxtaposed with a clean and modern design. To achieve the genuine 1980’s feel, there is a grainy film quality of the black and white images which are used behind text to achieve the clean and bright design similar to 1980’s advertisements. I found all of my images via Google image search looking specifically for 1980’s aerobics class, 1980’s weight workout.
  
 ### Fonts
-*Initially I was looking for an 80’s neon sign-like font but found a cleaner font called Monoton from Google Fonts. I paired this with a very clean and classic Gill Sans for the body text. I wanted to maintain a crisp and modern appearance to the overall site and decided to work with just two fonts to achieve this.
+* Initially I was looking for an 80’s neon sign-like font but found a cleaner font called Monoton from Google Fonts. I paired this with a very clean and classic Gill Sans for the body text. I wanted to maintain a crisp and modern appearance to the overall site and decided to work with just two fonts to achieve this.
 
 ### Technologies Used
----
-  ## Technologies Used 
 
-*[HTML5](https://en.wikipedia.org/wiki/HTML5) 
 
-*[CSS3](https://en.wikipedia.org/wiki/CSS) for site styling
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) 
 
-*[Bootstrap](https://getbootstrap.com/) for navbar and page layouts.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) for site styling
+
+* [Bootstrap](https://getbootstrap.com/) for navbar and page layouts.
  
-*[Google Fonts](https://fonts.google.com/) for the MONOTON font. 
+* [Google Fonts](https://fonts.google.com/) for the MONOTON font. 
 
-*[Git](https://git-scm.com/)
+* [Git](https://git-scm.com/)
 
-*[Gitpod](https://www.gitpod.io/) for site development 
+* [Gitpod](https://www.gitpod.io/) for site development 
 
-*[Github](https://github.com/) for site deployment.
+* [Github](https://github.com/) for site deployment.
 
-*[Techsini](https://techsini.com/multi-mockup/index.php) for mock-up mobile/tablet/desktop images
+* [Techsini](https://techsini.com/multi-mockup/index.php) for mock-up mobile/tablet/desktop images
 
-*[Balsamiq](https://balsamiq.com) for wireframes.
+* [Balsamiq](https://balsamiq.com) for wireframes.
 
 
 ### For testing:
 
-*[W3C for HTML](https://validator.w3.org/)  
+* W3C for HTML](https://validator.w3.org/)  
 
-*[W3C for CSS](https://jigsaw.w3.org/css-validator/)  
+* [W3C for CSS](https://jigsaw.w3.org/css-validator/)  
 
 ### Features
 ---
-*Navigation bar
-*Responsive links opening in new tabs.
-*Brand Logo
-*Footer
-*Responsive elements for Desktop, tablet and mobile.
-*An intuitive sign-up form. 
-*Call to action buttons
-*Downloadable pdf with class schedule
-*Images
+* Navigation bar
+* Responsive links opening in new tabs.
+* Brand Logo
+* Footer
+* Responsive elements for Desktop, tablet and mobile.
+* An intuitive sign-up form. 
+* Call to action buttons
+* Downloadable pdf with class schedule
+* Images
 
 ### Future Features
 
@@ -168,7 +175,7 @@ I would like to add a booking element for site visitors to book and pay for a cl
 ### Testing 
 ---
 *  Development testing 
-    *I intermittently used [Google Dev Tools](https://developers.google.com/web/tools/chrome-devtools) to double check coding for all responsive layouts.
+    * I intermittently used [Google Dev Tools](https://developers.google.com/web/tools/chrome-devtools) to double check coding for all responsive layouts.
 *  Validation testing to double check coding accuracy was done with:
   1) [W3S CSS Validator](https://jigsaw.w3.org/css-validator/) 
   2) [W3S Html Validator](https://validator.w3.org/)  
