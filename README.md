@@ -93,19 +93,19 @@ I created my wireframes initially on paper with pen and then onto Balsamiq. They
  
 
 #### Home Page        
-* ![Home page desktop](./assets/wireframes/home-page-desktop.png)
-* ![Home page tablet](./assets/wireframes/home-page-tablet.png)
-* ![Home page mobile](./assets/wireframes/home-page-mobile.png)
+* [Home page desktop](./assets/wireframes/home-page-desktop.png)
+* [Home page tablet](./assets/wireframes/home-page-tablet.png)
+* [Home page mobile](./assets/wireframes/home-page-mobile.png)
 ​
 #### Classes
-* ![About page desktop](./assets/wireframes/class-page-desktop.png)
-* ![About page tablet](./assets/wireframes/class-page-tablet.png)
-* ![About page mobile](./assets/wireframes/class-page-mobile.png)
+* [Class page desktop](./assets/wireframes/class-page-desktop.png)
+* [Class page tablet](./assets/wireframes/class-page-tablet.png)
+* [Class page mobile](./assets/wireframes/class-page-mobile.png)
 ​
 #### Contact
-* ![Portfolio page desktop](.assets/wireframes/contact-page-desktop.png)
-* ![Portfolio page tablet](./assets/wireframes/contact-page-tablet.png)
-* ![Portfolio page mobile](./assets/wireframes/contact-page-mobile.png)
+* [Contact page desktop](.assets/wireframes/contact-page-desktop.png)
+* [Contact page tablet](./assets/wireframes/contact-page-tablet.png)
+* [Contact page mobile](./assets/wireframes/contact-page-mobile.png)
 ​
 
 ### Colors
