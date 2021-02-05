@@ -103,7 +103,7 @@ I created my wireframes initially on paper with pen and then onto Balsamiq. They
 * ![About page mobile](../assets/wireframes/class-page-mobile.png)
 ​
 #### Contact
-* ![Portfolio page desktop](../assets/wireframes/contact-page-desktop.png)
+* ![Portfolio page desktop](.../wireframes/contact-page-desktop.png)
 * ![Portfolio page tablet](../assets/wireframes/contact-page-tablet.png)
 * ![Portfolio page mobile](../assets/wireframes/contact-page-mobile.png)
 ​
