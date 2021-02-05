@@ -46,12 +46,12 @@ The Stardust Gym website aims to attract a clientele looking for a fun workout w
 ### User Goals 
 ---
 As a potential member of Stardust Gym I want:
-  * Website reflects the quality of the gym to trust their reputation from first impression.  
-*I want to know what the gym provides in terms of classes, amenities and ethos.
-*I want to know how to contact the gym.
-*I want to know the class schedule.
-*I want to be able to have a pdf of the class schedule so I can easily print it or send it to a friend.
-*I want to be able to easily navigate their website. 
+ * Website reflects the quality of the gym to trust their reputation from first impression.  
+* I want to know what the gym provides in terms of classes, amenities and ethos.
+* I want to know how to contact the gym.
+* I want to know the class schedule.
+* I want to be able to have a pdf of the class schedule so I can easily print it or send it to a friend.
+* I want to be able to easily navigate their website. 
 * Website that works on phone, tablet and desktop to accommodate my busy lifestyle.
 * It is very easy to contact the gym via the site.
 * I want to know how I can visit the gym’s social media channels.
@@ -59,9 +59,9 @@ As a potential member of Stardust Gym I want:
 
 ### Business Goals
 ---
-*The website should provide an accessible method for members and potential members to contact the gym. 
-*The gym wants to provide a positive environment for people who are new or familiar with fitness and the website should reflect this.
-*The website should easily offer a weekly schedule to increase site visitors to return to the site and check the classes to share with their friends.
+* The website should provide an accessible method for members and potential members to contact the gym. 
+* The gym wants to provide a positive environment for people who are new or familiar with fitness and the website should reflect this.
+* The website should easily offer a weekly schedule to increase site visitors to return to the site and check the classes to share with their friends.
 
 
 ### User Requirements 
