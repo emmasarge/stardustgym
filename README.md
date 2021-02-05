@@ -77,7 +77,7 @@ As a potential member of Stardust Gym I want:
 
 ### Planning and Design
 ---
-##Layout & Wireframes
+## Layout & Wireframes
   
 Skeleton 
 
@@ -85,19 +85,19 @@ I created my wireframes initially on paper with pen and then onto Balsamiq. They
  
 
 #### Home Page        
-* [Home page desktop](wireframes/home-page-desktop.png)
-* [Home page tablet](wireframes/home-page-tablet.png)
-* [Home page mobile](wireframes/home-page-mobile.png)
+* [Home page desktop](../assets/wireframes/home-page-desktop.png)
+* [Home page tablet](../assets/wireframes/home-page-tablet.png)
+* [Home page mobile](../assets/wireframes/home-page-mobile.png)
 ​
 #### Classes
-* [About page desktop](wireframes/class-page-desktop.png)
-* [About page tablet](wireframes/class-page-tablet.png)
-* [About page mobile](wireframes/class-page-mobile.png)
+* [About page desktop](../assets/wireframes/class-page-desktop.png)
+* [About page tablet](../assets/wireframes/class-page-tablet.png)
+* [About page mobile](../assets/wireframes/class-page-mobile.png)
 ​
 #### Contact
-* [Portfolio page desktop](../wireframes/contact-page-desktop.png)
-* [Portfolio page tablet](../wireframes/contact-tablet.png)
-* [Portfolio page mobile](../wireframes/contact-page-mobile.png)
+* [Portfolio page desktop](../assets/wireframes/contact-page-desktop.png)
+* [Portfolio page tablet](../assets/wireframes/contact-tablet.png)
+* [Portfolio page mobile](../assets/wireframes/contact-page-mobile.png)
 ​
 
 ### Colors
