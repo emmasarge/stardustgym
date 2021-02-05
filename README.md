@@ -41,7 +41,7 @@ The Stardust Gym website aims to attract a clientele looking for a fun workout w
 ---
   1) Attract potential members of the gym.
   2) Provide useful information for members and potential members of Stardust Gym.
-  3)Provide an attractive and visual web experience to build a community at Stardust Gym, provide a positive ethos and service. 
+  3) Provide an attractive and visual web experience to build a community at Stardust Gym, provide a positive ethos and service. 
 
 ### User Goals 
 ---
